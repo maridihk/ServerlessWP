@@ -39,6 +39,11 @@ if (isset($_ENV['HOST'])) {
   define( 'DB_HOST', $_ENV['HOST'] );
 }
 
+/** Database Port */
+if (isset($_ENV['PORT'])) {
+	define( 'DB_PORT', $_ENV['PORT'] ):
+}
+
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
 
